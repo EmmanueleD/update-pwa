@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    CAMI PAGLIACCIA
+    90DAYS FOR LIFE
   </div>
 </template>
 

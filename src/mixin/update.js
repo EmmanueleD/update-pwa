@@ -21,7 +21,8 @@ export default {
   },
   methods: {
     updateAvailable(event) {
-      console.log(event);
+      this.registration = event.detail;
+      this.updateExists = true;
     },
     refreshApp() {
       console.log("this.refreshing", this.refreshing);

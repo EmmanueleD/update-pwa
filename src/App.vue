@@ -3,7 +3,7 @@
   <HelloWorld msg="Welcome to Your Vue.js App" />
 
 
-  <div class="aggionramento">
+  <div v-if="updateExists" class="aggionramento">
     <h1>Aggiornamento disponibile</h1>
     <button @click="refreshApp"> Aggiorna... </button>
   </div>

@@ -24,6 +24,9 @@ export default {
       console.log(event);
     },
     refreshApp() {
+      console.log("this.refreshing", this.refreshing);
+      console.log("this.registration", this.registration);
+      console.log("this.updateExists", this.updateExists);
       this.updateExists = false;
       // Make sure we only send a 'skip waiting' message if the SW is waiting
       if (!this.registration || !this.registration.waiting) return;
